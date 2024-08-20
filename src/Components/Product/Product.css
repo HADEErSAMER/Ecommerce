@@ -1,0 +1,36 @@
+#productdiv{
+    
+    height: 400px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+#bigimg{
+    height: 70%;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+#miniimage{
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+   
+
+}
+.miniimg{
+    height: 70px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.miniimg:active{
+filter: blur(3px);
+opacity: 0.5;
+
+}
